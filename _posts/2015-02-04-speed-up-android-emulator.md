@@ -5,7 +5,7 @@ header : Post Archive
 group: navigation
 ---
 
-## Android模拟器加速
+#### Android模拟器加速
 最近在极客学院看到一篇教程，可以有效的提高安卓模拟器的速度。
 只需要下载 [硬件加速执行管理器](https://software.intel.com/zh-cn/android)，并新建AVD为x86架构的模拟器即可。
 <br/>
