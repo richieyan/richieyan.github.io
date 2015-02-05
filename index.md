@@ -4,11 +4,6 @@ title: 不积跬步 无以至千里
 tagline: Supporting tagline
 published: true
 ---
-
-　---
-　　layout: default
-　　title: 大麦
-　　---
 　　<h2>{{ page.title }}</h2>
 　　<p>最新文章</p>
 　　<ul>
