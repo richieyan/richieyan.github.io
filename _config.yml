@@ -8,11 +8,11 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : 大麦立文处
-tagline: Site Tagline
+title : 大麦
+tagline: 技术
 author :
   name : Richie Yan
-  email : blah@email.test
+  email : richie.yan@outlook.com
   github : richieyan
   twitter : richieyan
   feedburner : feedname
@@ -80,7 +80,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : false
     disqus :
       short_name : jekyllbootstrap
     livefyre :

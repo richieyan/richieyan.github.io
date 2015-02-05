@@ -1,5 +1,8 @@
 ---
-published: false
+layout: post
+title : 让你的Android模拟器加速
+header : Post Archive
+group: navigation
 ---
 
 ## 让你的Android模拟器加速
