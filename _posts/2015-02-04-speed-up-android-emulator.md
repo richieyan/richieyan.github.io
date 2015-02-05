@@ -1,7 +1,7 @@
 ---
 layout: post
 title : Android模拟器加速
-header : Post Archive
+header : Android模拟器加速
 group: navigation
 ---
 
