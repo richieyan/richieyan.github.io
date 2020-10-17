@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://b.mithril.cool/2020/10/16/Java-%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E4%B9%8Barthas%E7%81%AB%E7%84%B0%E5%9B%BE/</loc>
+    
+    <lastmod>2020-10-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://b.mithril.cool/2020/10/09/%E6%9C%AC%E7%AB%99-Hexo-%E6%90%AD%E5%BB%BA%E5%8E%86%E7%A8%8B/</loc>
+    
+    <lastmod>2020-10-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://b.mithril.cool/2015/02/05/about-java-technology/</loc>
+    
+    <lastmod>2020-10-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://b.mithril.cool/2015/02/04/a-start/</loc>
+    
+    <lastmod>2020-10-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://b.mithril.cool/2015/02/06/about-xcode-include/</loc>
+    
+    <lastmod>2020-10-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://b.mithril.cool/2015/02/04/speed-up-android-emulator/</loc>
+    
+    <lastmod>2020-10-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://b.mithril.cool/404.html</loc>
+    
+    <lastmod>2020-10-16</lastmod>
+    
+  </url>
+  
+
+  <url>
+    <loc>http://b.mithril.cool/</loc>
+    <lastmod>2020-10-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>http://b.mithril.cool/tags/Tech/</loc>
+    <lastmod>2020-10-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://b.mithril.cool/tags/Hexo/</loc>
+    <lastmod>2020-10-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://b.mithril.cool/tags/Java-Performance/</loc>
+    <lastmod>2020-10-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  
+</urlset>
