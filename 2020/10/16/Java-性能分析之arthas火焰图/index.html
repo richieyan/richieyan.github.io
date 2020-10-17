@@ -31,7 +31,7 @@
 <meta property="og:image" content="http://b.mithril.cool/2020-10-16-Java-%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E4%B9%8Barthas%E7%81%AB%E7%84%B0%E5%9B%BE/flame-2.jpg">
 <meta property="og:image" content="http://b.mithril.cool/2020-10-16-Java-%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E4%B9%8Barthas%E7%81%AB%E7%84%B0%E5%9B%BE/flame-grahs-how-to-read.webp">
 <meta property="article:published_time" content="2020-10-16T13:01:37.000Z">
-<meta property="article:modified_time" content="2020-10-17T05:57:54.250Z">
+<meta property="article:modified_time" content="2020-10-17T05:58:44.589Z">
 <meta property="article:author" content="mithril">
 <meta property="article:tag" content="Java Performance">
 <meta name="twitter:card" content="summary">
@@ -453,14 +453,14 @@ height:50vh;
 <h4 id="使用-profiler-命令"><a href="#使用-profiler-命令" class="headerlink" title="使用 profiler 命令"></a>使用 <code>profiler</code> 命令</h4><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 启动</span></span><br><span class="line">[arthas@4541]$ profiler start</span><br><span class="line">Started [cpu] profiling</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看运行状态</span></span><br><span class="line">[arthas@4541]$ profiler status</span><br><span class="line">[cpu] profiling is running <span class="keyword">for</span> 13 seconds</span><br><span class="line"></span><br><span class="line"><span class="comment"># 停止</span></span><br><span class="line">[arthas@4541]$ profiler stop --file /tmp/output.svg</span><br><span class="line">OK</span><br><span class="line">profiler output file: /tmp/output.svg</span><br></pre></td></tr></table></figure>
 
 <p>本机可以通过 <code>http://localhost:3658/arthas-output/</code> 直接查看结果<br>也可以通过 <code>Chrome</code> 打开 <code>output.svg</code> 文件</p>
-<p><img src="/2020-10-16-Java-%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E4%B9%8Barthas%E7%81%AB%E7%84%B0%E5%9B%BE/flame-1.jpg" alt="Flame-1"></p>
-<p>点击某个函数调用栈可以看到放大局部的调用栈，最新 <code>3.28%</code> 是 CPU 占比。<br><img src="/2020-10-16-Java-%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E4%B9%8Barthas%E7%81%AB%E7%84%B0%E5%9B%BE/flame-2.jpg" alt="Flame-2"></p>
+<p><img src="/./2020-10-16-Java-%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E4%B9%8Barthas%E7%81%AB%E7%84%B0%E5%9B%BE/flame-1.jpg" alt="Flame-1"></p>
+<p>点击某个函数调用栈可以看到放大局部的调用栈，最新 <code>3.28%</code> 是 CPU 占比。<br><img src="/./2020-10-16-Java-%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E4%B9%8Barthas%E7%81%AB%E7%84%B0%E5%9B%BE/flame-2.jpg" alt="Flame-2"></p>
 <p>点击 <code>all</code> 返回默认的全局展示。</p>
 <h2 id="看懂火焰图"><a href="#看懂火焰图" class="headerlink" title="看懂火焰图"></a>看懂火焰图</h2><p>Y 轴表示调用栈，每一层都是一个函数。调用栈越深，火焰就越高，顶部就是正在执行的函数，下方都是它的父函数。</p>
 <p>X 轴表示抽样数，如果一个函数在x轴占据的宽度越宽，就表示它被抽到的次数多，即执行的时间长。注意，x轴不代表时间，而是所有的调用栈合并后，按字母顺序排列的。</p>
 <p>火焰图就是看顶层的哪个函数占据的宽度最大。只要有平顶 (plateaus)，就表示该函数可能存在性能问题。</p>
 <p>颜色没有实际意义，只是随机选取用于栈帧之间相互区分，左右顺序也没有什么含义。</p>
-<p><img src="/2020-10-16-Java-%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E4%B9%8Barthas%E7%81%AB%E7%84%B0%E5%9B%BE/flame-grahs-how-to-read.webp" alt="Flame Graphs: How to Read"></p>
+<p><img src="/./2020-10-16-Java-%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E4%B9%8Barthas%E7%81%AB%E7%84%B0%E5%9B%BE/flame-grahs-how-to-read.webp" alt="Flame Graphs: How to Read"></p>
 
     </article>
     <!-- license  -->
@@ -469,7 +469,7 @@ height:50vh;
             <p>Author：<a href="http://b.mithril.cool">mithril</a>
             <p>原文链接：<a href="http://b.mithril.cool/2020/10/16/Java-%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E4%B9%8Barthas%E7%81%AB%E7%84%B0%E5%9B%BE/">http://b.mithril.cool/2020/10/16/Java-%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E4%B9%8Barthas%E7%81%AB%E7%84%B0%E5%9B%BE/</a>
             <p>发表日期：<a href="http://b.mithril.cool/2020/10/16/Java-%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E4%B9%8Barthas%E7%81%AB%E7%84%B0%E5%9B%BE/">October 16th 2020, 9:01:37 pm</a>
-            <p>更新日期：<a href="http://b.mithril.cool/2020/10/16/Java-%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E4%B9%8Barthas%E7%81%AB%E7%84%B0%E5%9B%BE/">October 17th 2020, 1:57:54 pm</a>
+            <p>更新日期：<a href="http://b.mithril.cool/2020/10/16/Java-%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E4%B9%8Barthas%E7%81%AB%E7%84%B0%E5%9B%BE/">October 17th 2020, 1:58:44 pm</a>
             <p>版权声明：本文采用<a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可</p>
         </div>
     
