@@ -23,34 +23,6 @@
   </url>
   
   <url>
-    <loc>https://skald.top/2015/02/05/about-java-technology/</loc>
-    
-    <lastmod>2020-10-16</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://skald.top/2015/02/04/a-start/</loc>
-    
-    <lastmod>2020-10-16</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://skald.top/2015/02/06/about-xcode-include/</loc>
-    
-    <lastmod>2020-10-16</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://skald.top/2015/02/04/speed-up-android-emulator/</loc>
-    
-    <lastmod>2020-10-16</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://skald.top/404.html</loc>
     
     <lastmod>2020-10-16</lastmod>
@@ -60,43 +32,36 @@
 
   <url>
     <loc>https://skald.top/</loc>
-    <lastmod>2020-10-21</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://skald.top/tags/Tech/</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://skald.top/tags/Hexo/</loc>
-    <lastmod>2020-10-21</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://skald.top/tags/Java/</loc>
-    <lastmod>2020-10-21</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://skald.top/tags/grpc/</loc>
-    <lastmod>2020-10-21</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://skald.top/tags/Performance/</loc>
-    <lastmod>2020-10-21</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
