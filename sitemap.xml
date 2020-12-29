@@ -32,7 +32,7 @@
 
   <url>
     <loc>https://skald.top/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -40,28 +40,28 @@
   
   <url>
     <loc>https://skald.top/tags/Hexo/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://skald.top/tags/Java/</loc>
-    <lastmod>2020-11-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://skald.top/tags/grpc/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://skald.top/tags/Performance/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2020-12-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://skald.top/tags/grpc/</loc>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
