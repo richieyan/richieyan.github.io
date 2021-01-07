@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://skald.top/google0b13b0d500580f1d.html</loc>
+    
+    <lastmod>2021-01-07</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://skald.top/2020/12/31/opentelemetry-intro/</loc>
     
     <lastmod>2021-01-02</lastmod>
@@ -39,7 +46,7 @@
 
   <url>
     <loc>https://skald.top/</loc>
-    <lastmod>2021-01-02</lastmod>
+    <lastmod>2021-01-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -47,42 +54,42 @@
   
   <url>
     <loc>https://skald.top/tags/Hexo/</loc>
-    <lastmod>2021-01-02</lastmod>
+    <lastmod>2021-01-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://skald.top/tags/Java/</loc>
-    <lastmod>2021-01-02</lastmod>
+    <lastmod>2021-01-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://skald.top/tags/Performance/</loc>
-    <lastmod>2021-01-02</lastmod>
+    <lastmod>2021-01-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://skald.top/tags/grpc/</loc>
-    <lastmod>2021-01-02</lastmod>
+    <lastmod>2021-01-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://skald.top/tags/Cloud-Native/</loc>
-    <lastmod>2021-01-02</lastmod>
+    <lastmod>2021-01-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://skald.top/tags/OpenTelemetry/</loc>
-    <lastmod>2021-01-02</lastmod>
+    <lastmod>2021-01-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
